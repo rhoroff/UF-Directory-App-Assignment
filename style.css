@@ -1,8 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 #searchBar {
   margin: 15px 10px;
 }
+table {
+  border-collapse: collapse;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
 
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
+  
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #EBEBEB;
+  text-align: left;
+  background-color: #2B3E50;
+}
+table {
+  border-collapse: collapse;
+}
+h1 {
+ color:orange;
+}
+tr{
+  color:orange;
+  background-color: rgba(255, 255, 255, 0.075);
+
+}
+
+button {
+  border-radius: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #444;
+}
+
+/*table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #444;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #444;
+}
+
+.table .table {
+  background-color: #222;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #444;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #444;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0;
+}*/
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  color:orange;
+  background-color: #2B3E50;
+  border-radius: 0;
+}
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #f6d5bf;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #f3c6a9;
 }
